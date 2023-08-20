@@ -1,6 +1,4 @@
 
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 7
 gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
 ;
@@ -14,8 +12,6 @@ o
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 z
 Jsrc/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java,b/3/b389bd992e9e5247bbcc5c24c1c72a0436125b33
-b
-2src/main/java/hello/hellospring/domain/Member.java,0/8/08d798960fe87840902df6b103f9f6c2f8c9ed14
 n
 >src/test/java/hello/hellospring/service/MemberServiceTest.java,a/f/af57ff11a2642b31386af028f1b804edbe5ffeab
 p
