@@ -20,6 +20,8 @@ public class MemberService {
         회원 가입
         */
     public long join(Member member) {
+
+
         validateDuplicateMember(member); //중복 회원 검증
         memberRepository.save(member);
         return member.getId();
@@ -28,9 +30,10 @@ public class MemberService {
     private void validateDuplicateMember(Member member) {
         memberRepository.findByName(member.getName()) //findByName의 반환은 Optional -> 바로 ifPresent 사용 가능
                         .ifPresent(m -> {
-            throw new IllegalStateException("이미 존재하는 회원입니다.");
-        });
+                            throw new IllegalStateException("이미 존재하는 회원입니다.");
+                        });
     }
+
     /*
     전체 회원 조회
     */
